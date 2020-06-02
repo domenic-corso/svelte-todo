@@ -1,0 +1,35 @@
+body {
+    margin: 10px;
+}
+
+#app {
+    max-width: 750px;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+
+    &--inline {
+        display: inline-flex;
+    }
+
+    &--align-items-center {
+        align-items: center;
+    }
+
+    &--justify-content-center {
+        justify-content: center;
+    }
+
+    &--justify-content-space-between {
+        justify-content: space-between;
+    }
+
+    &--justify-content-flex-end {
+        justify-content: flex-end;
+    }
+}
