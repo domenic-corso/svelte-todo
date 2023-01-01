@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.2",
     "parcel-plugin-svelte": "^4.0.6",
     "svelte": "^3.23.0"
   },
